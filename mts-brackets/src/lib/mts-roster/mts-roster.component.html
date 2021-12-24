@@ -1,0 +1,22 @@
+<div class="page-wrapper">
+  <div class="bracket-title">{{ title }}</div>
+  <form>
+    <div class="form-title">
+      <strong><span class="name">&nbsp;</span></strong>
+      <strong><span class="score">Judge A</span></strong>
+      <strong> <span class="score">Center Judge</span></strong>
+      <strong> <span class="score">Judge B</span></strong>
+      <strong> <span class="score">Total Score</span></strong>
+    </div>
+    <div
+      class="form-line"
+      *ngFor="let competitor of competitors.roster let i = index"
+    >
+      <span class="name">{{ competitor.name }}</span>
+      <span class="score"><input type="text" disabled="disabled" /></span>
+      <span class="score"><input type="text" disabled="disabled" /></span>
+      <span class="score"><input type="text" disabled="disabled" /></span>
+      <span class="score">&nbsp;</span>
+    </div>
+  </form>
+</div>
