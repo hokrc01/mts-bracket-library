@@ -6,4 +6,4 @@ ng test mts-brackets
 24 12 2021 08:32:18.125:WARN [jasmine-diff]: You may be using a not supported Jasmine version.
 24 12 2021 08:32:18.125:WARN [jasmine-diff]: Pretty print option will not be available
 
-in the code I placed all of the contents of the source code I have migrated so far
+in the code I placed all of the contents of the source code I have migrated so far so the dist, cypress, node directories where not included.
